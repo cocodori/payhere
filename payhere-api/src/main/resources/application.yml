@@ -1,0 +1,11 @@
+spring.profiles.active: local
+
+server:
+  port: 8080
+
+spring:
+  config:
+    import:
+      - application-db.yml
+  main:
+    allow-bean-definition-overriding: true
